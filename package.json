@@ -1,6 +1,6 @@
 {
   "name": "plantuml-install",
-  "version": "1.0.0-0",
+  "version": "1.0.0",
   "description": "plantuml install script for linux",
   "keywords": [
     "installer",
