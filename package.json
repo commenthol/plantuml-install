@@ -1,0 +1,18 @@
+{
+  "name": "plantuml-install",
+  "version": "1.0.0-0",
+  "description": "plantuml install script for linux",
+  "keywords": [
+    "installer",
+    "plantuml"
+  ],
+  "license": "UNLICENSE",
+  "author": "commenthol <commenthol@gmail.com>",
+  "bin": {
+    "plantuml": "./src/plantuml.js"
+  },
+  "homepage": "https://plantuml.com",
+  "scripts": {
+    "postinstall": "node src/download.js"
+  }
+}
